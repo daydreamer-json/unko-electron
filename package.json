@@ -6,7 +6,7 @@
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "prettier --write src\\**\\* && npx tsc"
+    "build": "npx electron-packager . --overwrite --icon=media\favicon.ico --out=build"
   },
   "author": "daydreamer-json <atarakima1@icloud.com> (https://github.com/daydreamer-json)",
   "license": "MIT",
